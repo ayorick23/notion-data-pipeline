@@ -4,7 +4,24 @@ Pipeline de datos en **Python** que extrae información desde la **API de Notion
 
 Este proyecto automatiza la consolidación de información sobre el progreso de creación de cursos en una plataforma **LMS**, permitiendo visualizar métricas de avance mediante un dashboard interactivo.
 
-# 🚀 Descripción del proyecto
+## 📚 Tabla de Contenidos
+
+- [ Notion Data Pipeline](#-notion-data-pipeline)
+  - [� Tabla de Contenidos](#-tabla-de-contenidos)
+  - [🚀 Descripción del proyecto](#-descripción-del-proyecto)
+  - [🧠 Problema que resuelve](#-problema-que-resuelve)
+  - [⚙️ Flujo del Pipeline](#️-flujo-del-pipeline)
+  - [🛠️ Tecnologías utilizadas](#️-tecnologías-utilizadas)
+  - [📁 Estructura del proyecto](#-estructura-del-proyecto)
+  - [🔑 Configuración](#-configuración)
+  - [📦 Instalación](#-instalación)
+  - [▶️ Ejecución del pipeline](#️-ejecución-del-pipeline)
+  - [📊 Dashboard en Power BI](#-dashboard-en-power-bi)
+  - [📈 Impacto del proyecto](#-impacto-del-proyecto)
+  - [🧩 Posibles mejoras futuras](#-posibles-mejoras-futuras)
+  - [👨‍💻 Autor](#-autor)
+
+## 🚀 Descripción del proyecto
 
 En muchos equipos de desarrollo de contenido educativo, la información sobre el progreso de creación de cursos se gestiona en herramientas colaborativas como **Notion**. Sin embargo, analizar estos datos requiere exportarlos manualmente y prepararlos para herramientas de visualización.
 
@@ -18,7 +35,7 @@ Este proyecto resuelve ese problema mediante un **pipeline automatizado de datos
 
 El resultado es un flujo de datos automatizado que facilita el **seguimiento del progreso de creación de contenido educativo**.
 
-# 🧠 Problema que resuelve
+## 🧠 Problema que resuelve
 
 Antes de este pipeline:
 
@@ -34,7 +51,7 @@ Con este proyecto:
 
 Esto reduce significativamente el tiempo de preparación de datos y mejora la visibilidad del progreso de producción de cursos.
 
-# ⚙️ Flujo del Pipeline
+## ⚙️ Flujo del Pipeline
 
 ```text
 Notion Database
@@ -52,7 +69,7 @@ Generación de reporte Excel
 Dashboard en Power BI
 ```
 
-# 🛠️ Tecnologías utilizadas
+## 🛠️ Tecnologías utilizadas
 
 - **Python**
 - **Pandas**
@@ -63,7 +80,7 @@ Dashboard en Power BI
 
 Este proyecto demuestra el uso de Python para **automatización de procesos de análisis de datos** e integración con herramientas de **Business Intelligence**.
 
-# 📁 Estructura del proyecto
+## 📁 Estructura del proyecto
 
 ```text
 notion_data_pipeline
@@ -87,7 +104,7 @@ notion_data_pipeline
 └── requirements.txt
 ```
 
-# 🔑 Configuración
+## 🔑 Configuración
 
 Este proyecto utiliza variables de entorno para proteger credenciales de acceso a la API de Notion.
 
@@ -98,7 +115,7 @@ Este proyecto utiliza variables de entorno para proteger credenciales de acceso 
    DATABASE_ID=your_database_id_here
    ```
 
-# 📦 Instalación
+## 📦 Instalación
 
 1. **Clonar el repositorio:**
 
@@ -118,7 +135,7 @@ Este proyecto utiliza variables de entorno para proteger credenciales de acceso 
    pip install -r requirements.txt
    ```
 
-# ▶️ Ejecución del pipeline
+## ▶️ Ejecución del pipeline
 
 Para ejecutar el pipeline completo:
 
@@ -133,7 +150,7 @@ Esto realizará:
 3. Transformación de la información
 4. Generación del reporte Excel
 
-# 📊 Dashboard en Power BI
+## 📊 Dashboard en Power BI
 
 El archivo Excel generado por el pipeline es utilizado como fuente de datos para un **dashboard en Power BI** que permite visualizar:
 
@@ -144,7 +161,7 @@ El archivo Excel generado por el pipeline es utilizado como fuente de datos para
 
 ![Captura de Dashboard](img\dashboard.png)
 
-# 📈 Impacto del proyecto
+## 📈 Impacto del proyecto
 
 Este pipeline permitió:
 
@@ -153,14 +170,14 @@ Este pipeline permitió:
 - Centralizar información para análisis en Power BI
 - Facilitar el monitoreo del progreso de producción de contenido educativo
 
-# 🧩 Posibles mejoras futuras
+## 🧩 Posibles mejoras futuras
 
 - [ ] Programar ejecución automática del pipeline (scheduler)
 - [ ] Exportación adicional a formatos CSV o base de datos
 - [ ] Manejo avanzado de paginación en la API de Notion
 - [ ] Logs y monitoreo del pipeline
 
-# 👨‍💻 Autor
+## 👨‍💻 Autor
 
 **Dereck Méndez**
 
